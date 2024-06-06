@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="header text-center">
+        <div class="flex justify-center">
+            <img class="logo" src="./Netflix logo.png" alt="">
+        </div>
+        <h2 class="text-neutral-200 text-3xl font-bold">Search unlimited movies, tv shows and mamy more </h2>
+        <p class="text-neutral-400  text-lg">Ready to watch? Enter your movie name to check if it's a good choice</p>
+        <div class="flex mt-3">
+            <input class="px-4 py-3 text-white" type="text" placeholder="search a movie..."id="movieName">
+            <button class="btn" onclick="search()" >Search movie</button>
+        </div>
+    </div>
+
+    <div id="container" class="w-[640px] mx-auto mt-16">
+        <div class="flex text-neutral-50">
+            <div>
+                <h1 id="title" class="text-2xl font-bold">the avengers</h1>
+                <p class="my-1">released:<span class="text-neutral-200" id="released">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+                <p class="my-1">genre:<span class="text-neutral-200" id="genre">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+                <p class="my-1">director:<span class="text-neutral-200" id="director">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+                <p class="my-1">writer:<span class="text-neutral-200" id="writer">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+                <p class="my-1">actors:<span class="text-neutral-200" id="actors">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+                <p id="desc" class="text-md text-neutral-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis eligendi eos veritatis temporibus sunt blanditiis? Voluptatem?</p>
+                <p class="my-1">language:<span class="text-neutral-200" id="language">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+                <p class="my-1">awards:<span class="text-neutral-200" id="awards">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+                <p class="my-1">imdbRating:<span class="text-neutral-200" id="imdbRating">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+                <p class="my-1">boxOffice:<span class="text-neutral-200" id="boxOffice">Jr. NTR, Ram Charan, Alia Bhatt</span></p>
+            </div>   
+            <img id="poster"class="rounded-xl" src="https://m.media-amazon.com/images/M/MV5BODUwNDNjYzctODUxNy00ZTA2LWIyYTEtMDc5Y2E5ZjBmNTMzXkEyXkFqcGdeQXVyODE5NzE3OTE@._V1_SX300.jpg%22"></span></p>  
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
